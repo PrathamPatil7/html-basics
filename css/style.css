@@ -1,4 +1,4 @@
-h1{
+/* h1{
     color:blue;
     background-color: yellow;
 }
@@ -11,4 +11,38 @@ p{
 button{
     color: rgb(231, 127, 127);
     background-color: black;
+} */
+
+h1{
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    text-decoration:double underline;
+    letter-spacing: 3px;
+    font-family:Copperplate;
+
+}
+
+p{
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 20px;
+    font-family:Papyrus;
+}   
+
+h2{ 
+    text-align: center;
+    color: red;
+    text-decoration:black underline dotted;
+    letter-spacing: 3px;
+    font-family:copperplate;
+}
+
+h3{
+    text-align: center;
+    color: red;
+    text-decoration:wavy black underline ;
+    letter-spacing: 3px;
+    font-family:copperplate;
 }
