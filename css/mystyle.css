@@ -1,4 +1,4 @@
-h2{
+/* h2{
     color: orange;
 }
 
@@ -10,4 +10,16 @@ button{
 p{
     color: white;
     background-color: black;
+} */
+
+h1{
+    font-family: Leauge spartan;
+    color: #ffa511;
+    text-align: center;
+    font-weight: 900;
+    font-size: 55px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: teal double underline;
+    text-transform: uppercase;
 }
