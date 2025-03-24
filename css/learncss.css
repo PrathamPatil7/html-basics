@@ -1,49 +1,10 @@
-section {
-  margin-top: 100px;
-}
-
-h1 {
-  margin-bottom: 100px;
-  text-align: center;
-}
-
+/* box shadow  first x offset, y offset, blur radius, color*/
 div {
-  height: 50px;
+  height: 200px;
   width: 200px;
-  text-align: center;
   background-color: #7aa874;
   border: 2px solid black;
   margin: 10px auto;
-}
-
-div:nth-of-type(2n) {
-  background-color: #f7db6a;
-}
-
-div:nth-of-type(3n) {
-  background-color: #ebb02d;
-}
-
-/* transform */
-#one {
-  transform: rotate(45deg);
-}
-
-#two {
-  transform: scale(0.5);
-}
-
-/*translate for x and y axis i.e x and y */
-#three {
-  /* transform: translate(100px, 100px); */
-  transform: translate(100px);
-}
-
-/* skew makes an elemnt slant cross kind of slant rectangle */
-#four {
-  transform: skew(30deg);
-}
-
-#five {
-  transform: rotate(30deg) translate(150px);
+  text-align: center;
+  box-shadow: 9px 9px 8px black;
 }
