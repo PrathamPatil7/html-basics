@@ -1,10 +1,13 @@
-/* box shadow  first x offset, y offset, blur radius, color*/
-div {
-  height: 200px;
-  width: 200px;
-  background-color: #7aa874;
-  border: 2px solid black;
-  margin: 10px auto;
+/* background image , background-size contain color auto */
+h1,
+h2 {
   text-align: center;
-  box-shadow: 9px 9px 8px black;
+}
+div {
+  width: 400px;
+  height: 200px;
+  background-color: #7aa874;
+  margin: 10px auto;
+  background-image: url(bg.avif);
+  background-size: cover;
 }
