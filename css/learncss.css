@@ -1,44 +1,49 @@
-/* for alpha alpha defines opacity for color*/
-#box1 {
-  height: 100px;
-  width: 100px;
-  background-color: rgba(89, 255, 0, 0.758); /*used to define opacity of color*/
-  margin: 20px;
+section {
+  margin-top: 100px;
 }
 
-/*for opacity defines opacity for an element means the button and the any element that present inside it*/
-#opacity {
-  height: 100px;
-  width: 100px;
-  background-color: crimson;
-  opacity: 0.5;
-  margin: 20px;
+h1 {
+  margin-bottom: 100px;
+  text-align: center;
 }
 
-/*Transition also have shorthand i.e property name,duration,time-function,delay*/
-/* #box2 {
-  height: 300px;
-  width: 300px;
-  background-color: red;
-  transition-duration: 1s;
-  transition-delay: 1s;
+div {
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  background-color: #7aa874;
+  border: 2px solid black;
+  margin: 10px auto;
 }
 
-#box2:hover {
-  background-color: black;
-  border-radius: 50%;
-} */
-
-#box2 {
-  height: 100px;
-  width: 100px;
-  background-color: chartreuse;
-  margin: 0 auto;
-  margin-top: 10px;
-  transition: margin-top 2s ease-in 0.2s;
+div:nth-of-type(2n) {
+  background-color: #f7db6a;
 }
 
-#box2:hover {
-  margin-top: 400px;
-  background-color: black;
+div:nth-of-type(3n) {
+  background-color: #ebb02d;
+}
+
+/* transform */
+#one {
+  transform: rotate(45deg);
+}
+
+#two {
+  transform: scale(0.5);
+}
+
+/*translate for x and y axis i.e x and y */
+#three {
+  /* transform: translate(100px, 100px); */
+  transform: translate(100px);
+}
+
+/* skew makes an elemnt slant cross kind of slant rectangle */
+#four {
+  transform: skew(30deg);
+}
+
+#five {
+  transform: rotate(30deg) translate(150px);
 }
