@@ -1,27 +1,38 @@
-/* Card hover effect */
-* {
-  background-color: rgb(240, 181, 181);
-}
-.card {
-  width: 200px;
-  height: auto;
-  border: 2px solid black;
+div {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  text-align: center;
+  border: 3px solid black;
+  margin: 20px;
   display: inline-block;
-  margin: 10px;
-  border-radius: 5px;
-  box-shadow: 2px 4px 8px black;
-  transition: 0s;
 }
 
-.desc {
-  padding: 0px 3px 0px 3px; /*top right bottom left */
+/* Position css property it defines position of an element */
+#Static {
+  background-color: yellow;
+  position: static;
+  top: 100px;
+  left: 100px;
 }
 
-img {
-  width: 200px;
-  border-radius: 5px 5px 0 0; /*left right*/
+#Relative {
+  background-color: yellow;
+  position: relative;
+  top: 100px;
+  left: 100px;
 }
 
-.card:hover {
-  box-shadow: 2px 8px 20px black;
+#Absolute {
+  background-color: black;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+#Fixed {
+  background-color: yellow;
+  position: fixed;
+  top: 100px;
+  left: 100px;
 }
