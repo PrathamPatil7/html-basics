@@ -1,0 +1,38 @@
+#parent {
+  height: 400px;
+  width: 400px;
+  border: 2px solid lightseagreen;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#parent div {
+  height: 100px;
+  width: 100px;
+  color: black;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 50px;
+  border-radius: 10px;
+}
+
+#container {
+  height: 50px;
+  width: 900px;
+  background-color: lightcoral;
+  display: flex;
+  border: 2px solid lightseagreen;
+  border-radius: 10px;
+}
+
+#container div {
+  height: 50px;
+  width: 80px;
+  color: black;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 7px;
+  margin-top: 10px;
+}
