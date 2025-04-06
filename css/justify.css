@@ -1,13 +1,36 @@
 /* justify is used to create space between elements  */
+/* flex wrap used to wrap its means to stay in one line or not */
+/* Align items is used to distribute our items along cross axis */
+
+/* Flex shorthand
+1:flex grow|flex shrink|flex basis
+  flex :2 2 100px;
+
+2:flex grow|flex basis
+  flex : 2 100px;
+
+3:flex grow
+  flex:2;
+
+4:flex basis
+  flex:100px; */
+
 #container {
-  height: 500px;
+  height: 600px;
   width: 80%;
   background-color: azure;
   margin: 10px auto;
   border: 2px solid black;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+#blue {
+  flex-basis: 400px;
+  flex-grow: 1;
 }
 
 h1 {
@@ -16,7 +39,7 @@ h1 {
 
 #container div {
   height: 100px;
-  width: 100px;
+  width: 300px;
   color: black;
   text-align: center;
   font-size: 1.5em;
